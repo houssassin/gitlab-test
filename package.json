@@ -1,0 +1,26 @@
+{
+  "name": "gitlab-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houssassin/gitlab-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houssassin/gitlab-test/issues"
+  },
+  "homepage": "https://github.com/houssassin/gitlab-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  }
+}
