@@ -1,0 +1,25 @@
+image: php:7.2
+
+stages:
+  # - build
+  # - test
+  - deploy
+
+# build:
+#   script:
+    
+#   stage: build
+
+# test:
+#   script:
+#     # script
+#   stage: test
+
+deploy:
+  image: ubuntu:18.04
+  stage: deploy
+  before_script:
+    - apt-get update -qy
+    - apt-get install -y lftp
+  script:
+    - lftp -e "open adress.test user $FTP_USERNAME $FTP_PASSWORD mirror bye"
