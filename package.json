@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/houssassin/gitlab-test#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "helmet": "^3.23.3",
     "nodemon": "^2.0.4",
     "path": "^0.12.7"
